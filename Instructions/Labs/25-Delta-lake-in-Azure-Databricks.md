@@ -80,7 +80,7 @@ Azure Databricks is a distributed processing platform that uses Apache Spark *cl
 In this exercise, you'll use code in a notebook to explore delta lake in Azure Databricks.
 
 1. In the Azure Databricks workspace portal for your workspace, in the sidebar on the left, select **Workspace**. Then select the **&#8962; Home** folder.
-1. At the top of the page, in the **&#8942;** menu next to your user name, select **Import**. Then in the **Import** dialog box, select **URL** and import the notebook from `https://github.com/MicrosoftLearning/dp-203-azure-data-engineer/raw/master/Allfiles/labs/25/Delta-Lake.ipynb`
+1. At the top of the page, in the **&#8942;** menu next to your user name, select **Import**. Then in the **Import** dialog box, select **URL** and import the notebook from `https://raw.githubusercontent.com/skyworker1005/dp-203-azure-data-engineer/master/Allfiles/labs/25/Delta-Lake.ipynb`
 1. Connect the notebook to your cluster, and follow the instructions it contains; running the cells it contains to explore delta lake functionality.
 
 ## Delete Azure Databricks resources

@@ -85,7 +85,7 @@ As in many Spark environments, Databricks supports the use of notebooks to combi
 
 1. In the sidebar, use the **(+) New** link to create a **Notebook**.
 1. Change the default notebook name (**Untitled Notebook *[date]***) to **Explore products** and in the **Connect** drop-down list, select your cluster if it is not already selected. If the cluster is not running, it may take a minute or so to start.
-1. Download the [**products.csv**](https://raw.githubusercontent.com/MicrosoftLearning/dp-203-azure-data-engineer/master/Allfiles/labs/23/adventureworks/products.csv) file to your local computer, saving it as **products.csv**. Then, in the **Explore products** notebook, on the **File** menu, select **Upload data to DBFS**.
+1. Download the [**products.csv**](https://raw.githubusercontent.com/skyworker1005/dp-203-azure-data-engineer/master/Allfiles/labs/23/adventureworks/products.csv) file to your local computer, saving it as **products.csv**. Then, in the **Explore products** notebook, on the **File** menu, select **Upload data to DBFS**.
 1. In the **Upload Data** dialog box, note the **DBFS Target Directory** to where the file will be uploaded. Then select the **Files** area, and upload the **products.csv** file you downloaded to your computer. When the file has been uploaded, select **Next**
 1. In the **Access files from notebooks** pane, select the sample PySpark code and copy it to the clipboard. You will use it to load the data from the file into a DataFrame. Then select **Done**.
 1. In the **Explore products** notebook, in the empty code cell, paste the code you copied; which should look similar to this:

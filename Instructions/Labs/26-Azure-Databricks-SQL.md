@@ -79,7 +79,7 @@ You can use the **default** database for your tables, but when building an analy
 
 ## Create a table
 
-1. Download the [**products.csv**](https://raw.githubusercontent.com/MicrosoftLearning/dp-203-azure-data-engineer/master/Allfiles/labs/26/data/products.csv) file to your local computer, saving it as **products.csv**.
+1. Download the [**products.csv**](https://raw.githubusercontent.com/skyworker1005/dp-203-azure-data-engineer/master/Allfiles/labs/26/data/products.csv) file to your local computer, saving it as **products.csv**.
 1. In the Azure Databricks workspace portal, in the sidebar, select **(+) New** and then select **File Upload** and upload the **products.csv** file you downloaded to your computer.
 1. In the **Upload data** page, select the **adventureworks** schema and set the table name to **products**. Then select **Create table** on the bottom left corner of the page.
 1. When the table has been created, review its details.

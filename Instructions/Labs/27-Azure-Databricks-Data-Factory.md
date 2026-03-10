@@ -60,7 +60,7 @@ You can create notebooks in your Azure Databricks workspace to run code written 
 
 1. View the Azure Databricks workspace portal and note that the sidebar on the left side contains icons for the various tasks you can perform.
 1. In the sidebar on the left, select **Workspace**. Then select the **&#8962; Home** folder.
-1. At the top of the page, in the **&#8942;** menu next to your user name, select **Import**. Then in the **Import** dialog box, select **URL** and import the notebook from `https://github.com/MicrosoftLearning/dp-203-azure-data-engineer/raw/master/Allfiles/labs/27/Process-Data.ipynb`
+1. At the top of the page, in the **&#8942;** menu next to your user name, select **Import**. Then in the **Import** dialog box, select **URL** and import the notebook from `https://raw.githubusercontent.com/skyworker1005/dp-203-azure-data-engineer/master/Allfiles/labs/27/Process-Data.ipynb`
 1. Review the contents of the notebook, which include some Python code cells to:
     - Retrieve a parameter named **folder** if it is has been passed (otherwise use a default value of *data*).
     - Download data from GitHub and save it in the specified folder in the Databricks File System (DBFS).
